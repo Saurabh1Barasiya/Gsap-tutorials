@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+    font-family: "gilroy";
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    overflow-y: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 0.5vw 2vw;
+    margin-bottom: 5vw;
+}
+
+nav img{
+    height: 80px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.middle,.last{
+    display: flex;
+    gap:50px;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1vw;
+    letter-spacing: 0.1vw;
+}
+
+.last button{
+    padding: 1vw 2vw;
+    font-size: 1vw;
+    background-color: #fff;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: none;
+}
+
+#main h1{
+    font-size: 8vw;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 5vw;
+    letter-spacing: 0.6vw;
+
+    z-index: 9999;
+}
+
+#main span{
+    background-color: brown;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-size: 2vw;
+    display: inline-block;
+    margin: 20px  20px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+#main h1:nth-child(2){
+    margin-top: 20px;
+}
+
+#main #one{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 30px;
+    position: absolute;
+    top:20%;
+    left:10%;
+}
+#main #two{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 30px;
+    position: absolute;
+    bottom:10%;
+    left:20%;
+}
+#main #three{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 30px;
+    position: absolute;
+    top:30%;
+    right:20%;
+} 
+ #main #four{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 30px;
+    position: absolute;
+    top:70%;
+    right:30%;
+}
+
+h5{
+    margin-top: 2vw;
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 2vw;
+}
