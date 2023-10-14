@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width:100%;
+    background-color: blanchedalmond;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    
+}
+.box1{
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(70, 235, 125);
+
+}
+
+
+.main{
+    margin-top: 20px;
+    background-color: blueviolet;
+    color:aliceblue;
+}
+
+.class1{
+    height: 150px;
+    background-color: rgb(23, 202, 202);
+    width: 150px;
+}
+.class2{
+    height: 150px;
+    background-color: rgb(106, 63, 205);
+    width: 150px;
+}
+.class3{
+    height: 150px;
+    background-color: rgb(59, 25, 255);
+    width: 150px;
+}
