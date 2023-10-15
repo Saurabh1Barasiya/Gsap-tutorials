@@ -1,0 +1,70 @@
+/* agar font nahi chal raha h to fir aese kero */
+/*  har haal me chalega. */
+
+
+@font-face {
+    font-family: chacha;
+    src: url(./Heading-Now-Variable.ttf);
+
+    /* yaha par font-family ka name kuch de sakte ho. */
+    /* or fir usi name se use karna padega apko. */
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width:100%;
+}
+
+
+#page1{
+    height: 100vh;
+    width:100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+#page1 h1{
+    color: #fff;
+    font-size: 40vw;
+    text-transform: uppercase;
+
+
+
+    /* 👀👀👀👀👇👇👇 -->    */
+    /* font-family: "gilroy";
+    white-space: nowrap; */
+
+    /* to white-space: nowrap;  apply karne se text 1 line par aa jata h . */
+
+
+    font-family: chacha;
+    white-space: nowrap;
+    font-stretch: 260%;
+
+    /* font-stretch proprrty bas isi chacha font par hi apply hogi kyoki ye 
+       variable font h.
+    */
+
+    font-weight: 999;
+
+}
+
+#page2{
+    height: 100vh;
+    width:100%;
+    background-color: rgb(87, 1, 1);
+}
+
+#page3{
+    height: 100vh;
+    width:100%;
+    background-color: rgb(103, 12, 145);
+}
+
