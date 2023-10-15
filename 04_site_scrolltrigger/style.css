@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+
+html,body{
+    height: 100%;
+    width:100%;
+    /* background-color: black; */
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    padding: 0 2vw;
+    background-color: #000;
+
+}
+
+nav{
+    /* border:1px solid  red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8vw 0;
+    border-bottom: 2px solid #fff;
+    color:#fff;
+}
+
+nav .middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:4vw;
+}
+
+nav h3{
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+
+.first span{
+    font-weight: 800;
+    font-size: 3vw;
+    color: aqua;
+}
+
+.hero{
+    /* background-color: aqua; */
+    margin-top: 5vw;
+    height: 70%;
+    display: flex;
+}
+
+.heroleft{
+    /* background-color: rgb(20, 11, 200); */
+    width: 50%;
+    font-size: 3vw;
+    color: #fff;
+    text-transform: uppercase;
+    padding:0 4vw; 
+}
+
+.heroleft hr{
+    margin-top: 1.5vw;
+}
+
+span img{
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: -15px;
+}
+
+.ctn{
+    /* border: 1px solid red; */
+    display: flex;
+    font-size: 2vw;
+    margin-top: 1vw;
+    justify-content: space-between;
+    line-height: 2vw;
+}
+
+.heroright{
+    /* background-color: rgb(111, 3, 50); */
+    width: 50%;
+    margin: 0 auto;
+    padding:3vw 4vw; 
+}
+
+.heroright img{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    object-fit: cover;
+    border-radius: 10%;
+    margin-top: -22px; 
+}
+
+#page2{
+    height: 80%;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 0 2vw;
+    /* border:1px solid red; */
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.box{
+    border:1px solid #fff;
+    height: 200px;
+    width: 200px;
+    /* background-color: rgb(150, 1, 148); */
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1vw;
+}
